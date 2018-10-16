@@ -1,5 +1,5 @@
 # catalan_laravel_backpack
-Archivos de lenguaje en catalan.
+Catalan Lang files
 
 ## How to use
  - Download the files and copy into 'resources/lang/vendor/backpack/ca'.
@@ -8,10 +8,11 @@ Archivos de lenguaje en catalan.
  
 ## Common issues
 - Remember do next commands in the server after copy the files.
-´´´code
+
+```php
 php artisan cache:clear
 php artisan config:clear
 php artisan config:cache
 php artisan route:clear
 php artisan route:cache
-´´´
+```
